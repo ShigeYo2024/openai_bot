@@ -1,3 +1,4 @@
 streamlit==1.20.0
 openai==0.28.1
-pip install --upgrade numpy pandas
+pandas==1.5.3 
+numpy==1.23.5
