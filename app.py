@@ -33,10 +33,10 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("AI Coach Shigeru")
-st.write("Batesonの教育モデルを使ってChatGPTを使った対人コミュニケーションをシミュレーションします")
+st.title("AI Coach SHIGERU")
+st.write("グレゴリー・ベイトソンの教育モデルに基づく、ChatGPTを使った対人コミュニケーションのシミュレーションを行います")
 
-user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
+user_input = st.text_input("どんな人生を過ごしたいかご入力ください。", key="user_input", on_change=communicate)
 
 if st.session_state["messages"]:
     messages = st.session_state["messages"]
