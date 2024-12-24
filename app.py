@@ -8,7 +8,7 @@ openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 # st.session_stateを使いメッセージのやりとりを保存
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "system", "content": """あなたは教育コーチです。以下のプロセスを基にユーザーと対話してください：
+        {"role": "system", "content": """あなたはグレゴリー・ベイトソンの教育モデルに習熟した教育コーチです。以下のプロセスを基にユーザーと対話してください：
 1. 現在の状況を理解する質問をする。
 2. 学習モデルに基づき、適切な助言を提供する。
 3. 次のステップを提案し、内省を促す。"""}
